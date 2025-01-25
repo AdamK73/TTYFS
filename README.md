@@ -232,8 +232,8 @@ AvatarScene for age progression
 
 Data Flow:
 
-ts
-```
+
+```ts
 // HomePage.tsx
 <DateSlider onYearChange={setCurrentYear />
 <AvatarScene currentYear={currentYear} />
