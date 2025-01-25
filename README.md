@@ -50,8 +50,8 @@
 ## 🛠 Tech Stack
 
 - Next.js
-- OpenAI GPT-4
-- shadcn/ui
+- OpenAI GPT-4o-mini
+- tailwindcss
 
 ## 🧠 System Architecture
 
@@ -64,19 +64,6 @@ graph TD
     D --> A
 ```
 
-## 🔄 Core Workflow
-
-1. User interacts with UI components
-2. Data stored in LocalStorage
-3. API requests sent to Next.js endpoints
-4. OpenAI processes requests
-5. Responses update UI
-
-## 🔒 Security Notes
-
-- Protect API keys
-- Implement rate limiting
-- Validate user input
 
 ## ⚠️ Warning
 
